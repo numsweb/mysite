@@ -1,0 +1,22 @@
+<h3>Post a Message to the site Administrator</h3>
+
+<%= error_messages_for :comment %>
+
+
+
+<% form_for(@comment) do |f| %>
+  
+  <p>
+    <b>Message</b> <span class="required">(required)</span><br />
+    <%= f.text_area :comment, :rows => 5, :cols => 80 %>
+  </p>
+
+  <p>
+    <b>Your Email</b> <span class="required">(required)</span><br />
+    <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <%= f.submit "Post Comment" %>
+  </p>
+<% end %>

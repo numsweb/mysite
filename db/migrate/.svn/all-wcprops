@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/mysite/!svn/ver/7/mysite/db/migrate
+END
+001_create_homes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mysite/!svn/ver/1/mysite/db/migrate/001_create_homes.rb
+END
+002_create_comments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mysite/!svn/ver/7/mysite/db/migrate/002_create_comments.rb
+END

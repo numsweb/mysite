@@ -1,0 +1,13 @@
+<h1>Posted Comments</h1>
+
+
+
+<br />
+
+<%#= link_to 'New comment', new_comment_path %>
+
+<h3>Comments</h3>
+
+<%= render :partial => "comment", :collection => @comments %>
+
+<br />

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/mysite/!svn/ver/6/mysite/app/views/comments
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mysite/!svn/ver/6/mysite/app/views/comments/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mysite/!svn/ver/6/mysite/app/views/comments/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/mysite/!svn/ver/6/mysite/app/views/comments/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mysite/!svn/ver/6/mysite/app/views/comments/show.html.erb
+END
+_comment.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/mysite/!svn/ver/6/mysite/app/views/comments/_comment.html.erb
+END

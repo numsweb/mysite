@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/mysite/!svn/ver/11/mysite/app/views/homes
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/mysite/!svn/ver/1/mysite/app/views/homes/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/mysite/!svn/ver/11/mysite/app/views/homes/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/mysite/!svn/ver/1/mysite/app/views/homes/new.html.erb
+END
+contact.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mysite/!svn/ver/6/mysite/app/views/homes/contact.html.erb
+END
+privacy.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mysite/!svn/ver/2/mysite/app/views/homes/privacy.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/mysite/!svn/ver/1/mysite/app/views/homes/show.html.erb
+END

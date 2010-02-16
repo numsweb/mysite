@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/mysite/!svn/ver/1/mysite/script
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/mysite/!svn/ver/1/mysite/script/console
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/mysite/!svn/ver/1/mysite/script/server
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/mysite/!svn/ver/1/mysite/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/mysite/!svn/ver/1/mysite/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/mysite/!svn/ver/1/mysite/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/mysite/!svn/ver/1/mysite/script/generate
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/mysite/!svn/ver/1/mysite/script/plugin
+END

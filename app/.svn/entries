@@ -1,0 +1,40 @@
+8
+
+dir
+11
+http://svn.oneoriginalgeek.com/mysite/mysite/app
+http://svn.oneoriginalgeek.com/mysite
+
+
+
+2008-08-27T16:19:20.956208Z
+11
+jkropka
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6172fff6-f8c6-4631-bf63-85af83f3dd97
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+views
+dir
+

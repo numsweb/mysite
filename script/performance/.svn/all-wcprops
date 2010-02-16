@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/mysite/!svn/ver/1/mysite/script/performance
+END
+benchmarker
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/mysite/!svn/ver/1/mysite/script/performance/benchmarker
+END
+profiler
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/mysite/!svn/ver/1/mysite/script/performance/profiler
+END
+request
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/mysite/!svn/ver/1/mysite/script/performance/request
+END

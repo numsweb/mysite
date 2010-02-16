@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/mysite/!svn/ver/6/mysite/config/initializers
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mysite/!svn/ver/1/mysite/config/initializers/inflections.rb
+END
+custom_validations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/mysite/!svn/ver/6/mysite/config/initializers/custom_validations.rb
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/mysite/!svn/ver/1/mysite/config/initializers/mime_types.rb
+END

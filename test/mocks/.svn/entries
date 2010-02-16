@@ -1,0 +1,34 @@
+8
+
+dir
+11
+http://svn.oneoriginalgeek.com/mysite/mysite/test/mocks
+http://svn.oneoriginalgeek.com/mysite
+
+
+
+2008-08-22T16:35:23.963728Z
+1
+jkropka
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6172fff6-f8c6-4631-bf63-85af83f3dd97
+
+test
+dir
+
+development
+dir
+

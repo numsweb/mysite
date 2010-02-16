@@ -1,0 +1,7 @@
+
+<center><h1>Contact</h1></center>
+
+<title>Contact me</title>
+<p> You can contact me through this site <%= link_to "Post a message", post_contact_path %></p>
+<p> or you can always contact me via email  <a href="mailto:jkropka@oneoriginalgeek.com">here</a></p>
+

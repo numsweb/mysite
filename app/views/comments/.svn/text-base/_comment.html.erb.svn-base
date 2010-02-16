@@ -1,0 +1,7 @@
+
+<div style="padding: 10px; margin-bottom: 12px;"> 	
+	<div class="comment_header">
+		<h3> <%= comment.comment %> </h3>
+		<p><%= "posted #{time_ago_in_words(comment.created_at)} ago by #{comment.email}" %></p>
+	</div>
+</div>  

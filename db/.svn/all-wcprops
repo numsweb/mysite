@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/mysite/!svn/ver/7/mysite/db
+END
+schema.rb
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/mysite/!svn/ver/6/mysite/db/schema.rb
+END
+development.sqlite3
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/mysite/!svn/ver/6/mysite/db/development.sqlite3
+END

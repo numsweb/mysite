@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/mysite/!svn/ver/6/mysite/app/models
+END
+comment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/mysite/!svn/ver/6/mysite/app/models/comment.rb
+END
+home.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/mysite/!svn/ver/1/mysite/app/models/home.rb
+END
+mailer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/mysite/!svn/ver/6/mysite/app/models/mailer.rb
+END

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>OneOriginalGeek.com <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'scaffold' %>
+  <%#= stylesheet_link_tag 'lightbox' %>
+  <%#= javascript_include_tag 'prototype'%>
+  <%#= javascript_include_tag 'scriptaculous'%>
+  <%#= javascript_include_tag 'lightbox'%>
+</head>
+<body>
+  <div id="floater">
+    <div id="header"><span class="logo"><%= link_to(image_tag("/images/oneoriginalgeek.png"), root_path) %></span></div>
+
+    <div id="content">
+      <p style="color: green"><%= flash[:notice] %></p>
+
+      <%= yield  %>
+    </div>
+    <div id="footer">
+        <%= link_to "Home", root_path %> &nbsp;|&nbsp;
+        <%= link_to "Contact", contact_path%> &nbsp;|&nbsp;
+        <a href="http://blog.oneoriginalgeek.com">Blog</a> &nbsp;|&nbsp;
+        <%= link_to "Privacy Policy", privacy_path %> &nbsp;|&nbsp;
+        <br/><br/>    Copyright 2008 OneOriginalGeek.com
+    </div> <!-- /footer -->
+  </div> <!-- floater -->
+</body>
+</html>
