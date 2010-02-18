@@ -5,14 +5,26 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>Comments: <%= controller.action_name %></title>
-  <%= stylesheet_link_tag 'scaffold' %>
+  <%= stylesheet_link_tag 'style' %>
 </head>
 <body>
-<div id="header"><span class="logo"><%= link_to(image_tag("/images/oneoriginalgeek.png"), root_path) %></span></div>
-<div id="background">
+<div id="header"><span class="logo"><%= link_to(image_tag("/images/oneoriginalgeek_blue.png"), root_path) %></span></div>
+<div id="menu">
+<ul>
+<li><%= link_to "Home", root_path %></li>
+<li><%= link_to "Contact", contact_path%></li>
+<li><a href="http://blog.oneoriginalgeek.com">Blog</a> </li>
+<li><%= link_to "Privacy Policy", privacy_path %> </li>
+
+</ul>
+</div>
+<div class="clear"></div>
+<div id="content">
+  <div id="form_div"">
   <p style="color: green"><%= flash[:notice] %></p>
 
   <%= yield  %>
+  </div>
 </div>
   <div id="footer">
         <%= link_to "Home", root_path %> &nbsp;|&nbsp;
