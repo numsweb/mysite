@@ -33,6 +33,7 @@ ActionController::Routing::Routes.draw do |map|
    map.contact "/contact", :controller => "homes", :action => "contact"
    map.privacy "/privacy", :controller => "homes", :action => "privacy"
    map.post_contact "/new_contact", :controller => "comments", :action => "new"
+   map.portfolio "/portfolio", :controller => "homes", :action => "portfolio"
  # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.

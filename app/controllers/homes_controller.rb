@@ -20,6 +20,8 @@ class HomesController < ApplicationController
       format.xml  { render :xml => @home }
     end
   end
+  
+ 
 
   # GET /homes/new
   # GET /homes/new.xml

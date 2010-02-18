@@ -2,38 +2,24 @@
        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Comments: <%= controller.action_name %></title>
-  <%= stylesheet_link_tag 'style' %>
-</head>
-<body>
-<div id="header"><span class="logo"><%= link_to(image_tag("/images/oneoriginalgeek_blue.png"), root_path) %></span></div>
-<div id="menu">
-<ul>
-<li><%= link_to "Home", root_path %></li>
-<li><%= link_to "Contact", contact_path%></li>
-<li><a href="http://blog.oneoriginalgeek.com">Blog</a> </li>
-<li><%= link_to "Privacy Policy", privacy_path %> </li>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>Comments: <%= controller.action_name %></title>
+    <%= stylesheet_link_tag 'style' %>
+  </head>
+  <body>
+    <div id="floater">
+      <div id="header"><span class="logo"><%= link_to(image_tag("/images/oneoriginalgeek_blue.png"), root_path) %></span></div>
+      <%= render :partial => "layouts/nav"%>
+    <div class="clear"></div>
+    <div id="content">
+      <div id="form_div">
+        <p style="color: green"><%= flash[:notice] %></p>
 
-</ul>
-</div>
-<div class="clear"></div>
-<div id="content">
-  <div id="form_div"">
-  <p style="color: green"><%= flash[:notice] %></p>
-
-  <%= yield  %>
-  </div>
-</div>
-  <div id="footer">
-        <%= link_to "Home", root_path %> &nbsp;|&nbsp;
-        <%= link_to "Contact", contact_path%> &nbsp;|&nbsp;
-        <a href="http://oneoriginalgeek.com/blog/">Blog</a> &nbsp;|&nbsp;
-        <%= link_to "Privacy Policy", privacy_path %> &nbsp;|&nbsp;
-        <br/><br/>    Copyright 2008 OneOriginalGeek.com
-  </div> <!-- /footer -->
-</div>
-
-</body>
+        <%= yield  %>
+      </div>
+    </div>
+    <%= render :partial => "layouts/footer" %>
+    </div> <!-- floater -->
+  </body>
 </html>
