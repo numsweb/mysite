@@ -4,7 +4,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>OneOriginalGeek.com <%= controller.action_name %></title>
+  <% if controller.action_name == "index" %>
+    <title>OneOriginalGeek.com Home</title>
+  <% elsif controller.action_name == "privacy" %>
+    <title>OneOriginalGeek.com Privacy Policy</title>
+  <% else %>
+    <title>OneOriginalGeek.com <%= controller.action_name.capitalize %></title>
+  <% end %>
 
   <%= stylesheet_link_tag 'style' %>
     <%#= stylesheet_link_tag 'scaffold' %>
