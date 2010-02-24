@@ -4,5 +4,12 @@
   <%= link_to "Contact", contact_path%> &nbsp;|&nbsp;
   <%= link_to "Portfolio", portfolio_path%> &nbsp;|&nbsp;
   <%= link_to "Privacy Policy", privacy_path %> &nbsp;|&nbsp;
+  <% unless logged_in? %>
+    <%= link_to "Admin Login", login_path %> &nbsp;|&nbsp;
+  <% else %>
+    <%= link_to "View Comments", comments_path %> &nbsp;|&nbsp;
+    <%= link_to "Admin Logout", logout_path %> &nbsp;|&nbsp;
+  <% end %>
   <br/><br/>    Copyright 2008 OneOriginalGeek.com
+
 </div> <!-- /footer -->
