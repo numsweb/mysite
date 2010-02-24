@@ -1,13 +1,13 @@
 require 'digest/sha1'
-require 'aasm'
+#require 'aasm'
 
 class User < ActiveRecord::Base
 
-
+  include AuthenticatedSystem
   include Authentication
   include Authentication::ByPassword
   include Authentication::ByCookieToken
-  include Authorization::AasmRoles
+ # include Authorization::AasmRoles
 
   validates_presence_of     :login
   validates_length_of       :login,    :within => 3..40
