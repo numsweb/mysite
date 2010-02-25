@@ -4,7 +4,7 @@ set :user, "jkropka"
 set :remote, user
 #set :scm_user, user
 
-#set :deploy_to, "/home/jkropka/oneoriginalgeek.com/website"
+#set :deploy_to, "/home/jkropka/#{application}.oneoriginalgeek.com"
 #set :deploy_via, :remote_cache
 set :keep_releases, 3
 set :use_sudo, false
@@ -19,15 +19,15 @@ set :ssh_options, {
 
 #ssh_options[:keys] = ["#{ENV['HOME']}/.ssh/id_dsa"]
 
-set :chmod755, "app config db lib public vendor script script/* public/disp*"
+set :chmod755, "app config db lib public vendor script script/\* public/disp* "
 
 
 
 #set :user, 'jkropka'  # Your dreamhost account's username
 set :domain, 'oneoriginalgeek.com'  # Dreamhost servername where your account is located 
-set :project, 'blabble'  # Your application as its called in the repository
-set :application, 'blabble.oneoriginalgeek.com'  # Your app's location (domain or sub-domain name as setup in panel)
-set :applicationdir, "/home/#{user}/#{application}"  # The standard Dreamhost setup
+set :project, 'mysite'  # Your application as its called in the repository
+set :application, 'oneoriginalgeek.com'  # Your app's location (domain or sub-domain name as setup in panel)
+set :applicationdir, "/home/jkropka/oneoriginalgeek.com/website." 
 
 # roles (servers)
 role :web, domain

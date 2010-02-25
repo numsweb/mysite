@@ -1,4 +1,4 @@
-#set :application, "blabble"
+set :application, "website"
 
 require 'capistrano/ext/multistage'
 

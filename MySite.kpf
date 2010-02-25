@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
 <project id="68160f59-89a9-4549-9cc0-105dda8162b2" kpf_version="4" name="MySite.kpf">
-<folder id="c81243c4-434b-2a47-9df8-74b3776dcb86" idref="68160f59-89a9-4549-9cc0-105dda8162b2/config" name="deploy">
-</folder>
-<file id="4254197f-5d4c-d049-86b4-e82fb217d85a" idref="c81243c4-434b-2a47-9df8-74b3776dcb86" name="staging.rb" url="config/staging.rb">
-</file>
 <preference-set idref="68160f59-89a9-4549-9cc0-105dda8162b2">
   <boolean id="import_live">1</boolean>
 </preference-set>
