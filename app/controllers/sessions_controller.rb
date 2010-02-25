@@ -25,7 +25,9 @@ class SessionsController < ApplicationController
       note_failed_signin
       @login       = params[:login]
       @remember_me = params[:remember_me]
+      flash[:error] = "There was a problem with the login, please try again!"
       render :action => 'new'
+      #redirect_to login_path
     end
   end
 
