@@ -31,9 +31,14 @@
       <div class="clear"></div>
 
       <div id="content">
-        <p style="color: green"><%= flash[:notice] %></p>
-        <p style="color: red"><%= flash[:error] %></p>
-
+        <% if flash[:notice] %>
+          <p style="color: green"><%= flash[:notice] %></p>
+          <br/>
+        <%end%>
+        <% if flash[:error] %>
+          <p style="color: red"><%= flash[:error] %></p>
+          <br/>
+        <% end %>
         <%= yield  %>
       </div>
       <%= render :partial => "layouts/footer" %>
