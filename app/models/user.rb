@@ -51,6 +51,10 @@ class User < ActiveRecord::Base
   def email=(value)
     write_attribute :email, (value ? value.downcase : nil)
   end
+  
+  def recently_activated?
+    @activated
+  end
 
   protected
     
@@ -58,6 +62,12 @@ class User < ActiveRecord::Base
         self.deleted_at = nil
         self.activation_code = self.class.make_token
     end
+    
+    def do_activate
+      @activated = true
+       self.activated_at = Time.now.utc
+       self.deleted_at = self.activation_code = nil
+     end
 
 
 end
